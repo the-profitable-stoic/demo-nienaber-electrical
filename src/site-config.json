@@ -1,0 +1,548 @@
+{
+  "business": {
+    "name": "Nienaber Electrical",
+    "phone": "+14026574139",
+    "category": "electrical contractor",
+    "city": "Omaha",
+    "state": "NE"
+  },
+  "design": {
+    "preset": {
+      "id": "roofing-dark-premium",
+      "categoryGroup": "roofing",
+      "name": "Dark Premium",
+      "recipeFile": "roofing/dark-premium.astro",
+      "colors": {
+        "primary": "#FF6B35",
+        "primaryDark": "#E05A2B",
+        "primaryLight": "#FFD4C2",
+        "secondary": "#2A2A2A",
+        "accent": "#FF8C5A",
+        "background": "#1A1A1A",
+        "backgroundAlt": "#111111",
+        "surface": "#2A2A2A",
+        "text": "#F5F5F5",
+        "textLight": "#A0A0A0",
+        "textOnDark": "#FFFFFF",
+        "border": "#3A3A3A"
+      },
+      "typography": {
+        "headingFont": "Space Grotesk",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "6px",
+        "buttonRadius": "6px",
+        "cardRadius": "10px",
+        "shadowStyle": "glow"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "dark",
+          "surface",
+          "dark",
+          "surface",
+          "dark"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "roofing/dark-premium"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Omaha's Trusted Electricians",
+      "heroSubline": "Powering homes and businesses across the metro. Expert solutions, reliable service, guaranteed.",
+      "aboutTitle": "Decades of Electrical Expertise in Omaha",
+      "aboutText": [
+        "Nienaber Electrical started with a simple mission: to provide honest, reliable electrical services to our neighbors in Omaha. Founded by seasoned electrician Mark Nienaber, our company has grown from a single truck operation to a trusted team serving residential and commercial clients throughout the metro area.",
+        "We approach every project, big or small, with meticulous attention to detail and a commitment to quality workmanship. We understand the unique electrical challenges posed by Omaha's climate, from winter blizzards to summer thunderstorms. Our goal is to ensure your electrical systems are safe, efficient, and built to last.",
+        "Nienaber Electrical is deeply rooted in the Omaha community. We support local schools, participate in neighborhood events, and prioritize giving back. We're not just electricians; we're your neighbors, committed to making Omaha a better place to live and work."
+      ],
+      "valueProps": [
+        {
+          "title": "24/7 Emergency Service",
+          "description": "Electrical emergencies don't wait for business hours. We're available around the clock to handle urgent issues and restore power quickly."
+        },
+        {
+          "title": "Licensed & Insured",
+          "description": "Rest assured, our team is fully licensed and insured, protecting you and your property from liability."
+        },
+        {
+          "title": "Upfront Pricing",
+          "description": "No hidden fees or surprises. We provide clear, detailed estimates before starting any work."
+        },
+        {
+          "title": "Quality Workmanship",
+          "description": "We use only the highest quality materials and employ skilled technicians to ensure lasting results."
+        }
+      ],
+      "ctaHeadline": "Ready for Reliable Electrical Solutions?",
+      "ctaSubline": "Contact Nienaber Electrical today for a free estimate and experience the difference."
+    },
+    "services": [
+      {
+        "slug": "residential-electrical-services",
+        "name": "Residential Electrical Services",
+        "shortDescription": "Comprehensive electrical solutions for Omaha homes, ensuring safety and efficiency.",
+        "description": "From new home wiring to electrical repairs and upgrades, Nienaber Electrical provides a full range of residential services. We understand the specific needs of Omaha homeowners, whether you're dealing with an older home in Dundee or a new build in Elkhorn. We handle everything from troubleshooting flickering lights to installing whole-house surge protection. We ensure your home's electrical system meets code, operates safely, and enhances your comfort. We understand the challenges Omaha's climate presents to residential electrical systems, including freeze-thaw cycles that can damage wiring and grounding issues exacerbated by summer storms. We specialize in diagnosing and repairing these issues, providing durable solutions that withstand the test of time. \n\nOur residential services include: electrical panel upgrades, outlet and switch replacements, lighting installation (indoor and outdoor), ceiling fan installation, wiring for home additions and remodels, electrical safety inspections, and troubleshooting electrical problems. We also offer specialized services such as installing electric vehicle (EV) chargers and smart home automation systems. \n\nWe prioritize clear communication, honest pricing, and exceptional workmanship. When you choose Nienaber Electrical for your residential electrical needs, you can be confident you're getting the best service in Omaha.",
+        "process": [
+          "Step 1: Schedule a consultation to discuss your needs and assess your electrical system.",
+          "Step 2: Receive a detailed, upfront estimate with no hidden costs.",
+          "Step 3: Our licensed electricians will perform the work efficiently and safely.",
+          "Step 4: We conduct a thorough inspection to ensure your satisfaction and the safety of your electrical system."
+        ],
+        "benefits": [
+          "Improved home safety",
+          "Increased energy efficiency",
+          "Enhanced property value",
+          "Peace of mind knowing your electrical system is in good hands"
+        ],
+        "faq": [
+          {
+            "question": "How often should I have my electrical panel inspected?",
+            "answer": "We recommend having your electrical panel inspected at least every 3-5 years, or more frequently if you notice any signs of problems such as flickering lights, tripped breakers, or a burning smell. Regular inspections can help identify potential hazards before they become serious issues."
+          },
+          {
+            "question": "What are the benefits of installing a whole-house surge protector?",
+            "answer": "A whole-house surge protector protects all of your electronic devices from power surges caused by lightning strikes, utility problems, or internal appliances. It can prevent costly damage to your TVs, computers, appliances, and other sensitive equipment."
+          },
+          {
+            "question": "Do you offer financing options for larger electrical projects?",
+            "answer": "Yes, we offer flexible financing options to help you manage the cost of larger electrical projects. Contact us to learn more about our financing plans and find a solution that fits your budget."
+          }
+        ]
+      },
+      {
+        "slug": "commercial-electrical-services",
+        "name": "Commercial Electrical Services",
+        "shortDescription": "Reliable electrical solutions for Omaha businesses, minimizing downtime and maximizing efficiency.",
+        "description": "Nienaber Electrical understands the critical importance of a reliable electrical system for Omaha businesses. From small retail shops in the Old Market to large office buildings downtown, we provide comprehensive commercial electrical services to keep your operations running smoothly. We handle everything from routine maintenance and repairs to complex installations and upgrades. We're familiar with the specific electrical codes and regulations that apply to commercial properties in Omaha, ensuring compliance and safety. We know that electrical problems can disrupt your business and impact your bottom line. That's why we offer prompt, efficient service to minimize downtime and get you back up and running as quickly as possible. \n\nOur commercial services include: electrical system design and installation, lighting upgrades (including energy-efficient LED lighting), electrical panel upgrades and replacements, wiring for new construction and renovations, data cabling and network wiring, emergency power systems (generators and UPS), and electrical safety inspections. We also offer preventative maintenance programs to help you avoid costly repairs and extend the life of your electrical equipment. \n\nWe pride ourselves on our professionalism, reliability, and commitment to customer satisfaction. When you choose Nienaber Electrical for your commercial electrical needs, you can be confident you're getting the best value and the highest quality service in Omaha.",
+        "process": [
+          "Step 1: Contact us to discuss your commercial electrical needs and schedule a site visit.",
+          "Step 2: We'll conduct a thorough assessment of your electrical system and provide a detailed proposal.",
+          "Step 3: Our experienced electricians will perform the work with minimal disruption to your business.",
+          "Step 4: We'll conduct a final inspection to ensure your complete satisfaction and the safety of your electrical system."
+        ],
+        "benefits": [
+          "Reduced energy costs",
+          "Improved safety and compliance",
+          "Minimized downtime",
+          "Increased productivity"
+        ],
+        "faq": [
+          {
+            "question": "What are the benefits of upgrading to LED lighting in my commercial building?",
+            "answer": "LED lighting offers significant energy savings compared to traditional lighting options. It also lasts much longer, reducing maintenance costs and improving the overall appearance of your building. LED lighting can also improve employee productivity by providing better illumination."
+          },
+          {
+            "question": "Do you offer emergency electrical services for commercial clients?",
+            "answer": "Yes, we offer 24/7 emergency electrical services for commercial clients in Omaha. We understand that electrical emergencies can happen at any time, and we're always available to respond quickly and efficiently."
+          },
+          {
+            "question": "Can you help me design and install a new electrical system for my commercial building?",
+            "answer": "Yes, we have extensive experience designing and installing electrical systems for commercial buildings of all sizes. We'll work closely with you to understand your specific needs and create a customized solution that meets your budget and requirements."
+          }
+        ]
+      },
+      {
+        "slug": "electrical-panel-upgrades",
+        "name": "Electrical Panel Upgrades",
+        "shortDescription": "Enhance your home's electrical capacity with a modern panel upgrade, tailored to Omaha's demands.",
+        "description": "Is your electrical panel outdated, overloaded, or showing signs of wear? An electrical panel upgrade from Nienaber Electrical can improve the safety and reliability of your home's electrical system. Older homes in neighborhoods like Dundee and Benson often have outdated panels that can't handle the demands of modern appliances and electronics. We'll assess your current electrical load and recommend the right size panel to meet your needs. We understand the unique electrical challenges posed by Omaha's older housing stock, including outdated wiring and grounding issues. We specialize in safely and efficiently upgrading electrical panels to meet current code requirements. \n\nOur electrical panel upgrade services include: panel replacement, breaker replacement, adding circuits, grounding upgrades, surge protection installation, and electrical safety inspections. We use only high-quality panels from trusted manufacturers to ensure lasting performance and reliability. We also handle all necessary permits and inspections to ensure compliance with local regulations. \n\nDon't wait until you experience an electrical problem to upgrade your panel. Contact Nienaber Electrical today for a free consultation and learn how a panel upgrade can improve the safety and value of your Omaha home.",
+        "process": [
+          "Step 1: Schedule an assessment to determine your current electrical load and future needs.",
+          "Step 2: We'll provide a detailed proposal outlining the scope of work and the cost of the upgrade.",
+          "Step 3: Our licensed electricians will safely remove your old panel and install the new one.",
+          "Step 4: We'll conduct a thorough inspection to ensure the panel is functioning properly and meets all safety standards."
+        ],
+        "benefits": [
+          "Increased electrical capacity",
+          "Improved safety",
+          "Reduced risk of electrical fires",
+          "Enhanced property value"
+        ],
+        "faq": [
+          {
+            "question": "How do I know if I need an electrical panel upgrade?",
+            "answer": "Common signs include frequent tripped breakers, flickering lights, and difficulty running multiple appliances at the same time. If your panel is more than 25 years old, it's also a good idea to have it inspected by a qualified electrician."
+          },
+          {
+            "question": "How long does an electrical panel upgrade take?",
+            "answer": "The duration of an electrical panel upgrade depends on the complexity of the job, but it typically takes between 4 and 8 hours. We'll work efficiently to minimize disruption to your home."
+          },
+          {
+            "question": "Will I have to turn off the power during the panel upgrade?",
+            "answer": "Yes, we will need to turn off the power to your home for a short period of time during the panel upgrade. We'll notify you in advance and minimize the downtime as much as possible."
+          }
+        ]
+      },
+      {
+        "slug": "lighting-installation",
+        "name": "Lighting Installation",
+        "shortDescription": "Brighten your Omaha home or business with expert lighting solutions, customized to your space.",
+        "description": "Nienaber Electrical offers comprehensive lighting installation services for residential and commercial clients in Omaha. Whether you're looking to upgrade your home's interior lighting, install landscape lighting to enhance your curb appeal, or improve the energy efficiency of your business with LED lighting, we have the expertise to handle any project. We understand the importance of proper lighting for both aesthetics and functionality. We'll work closely with you to design a lighting plan that meets your specific needs and budget. We're familiar with the latest lighting technologies and trends, and we can help you choose the right fixtures and bulbs to create the perfect ambiance. \n\nOur lighting installation services include: recessed lighting, track lighting, pendant lighting, chandelier installation, under-cabinet lighting, landscape lighting, security lighting, and energy-efficient LED lighting upgrades. We also offer smart lighting solutions that allow you to control your lights remotely and automate your lighting schedules. \n\nFrom the initial consultation to the final installation, we'll provide exceptional service and ensure your complete satisfaction. Contact Nienaber Electrical today for a free lighting consultation and let us help you transform your space.",
+        "process": [
+          "Step 1: Schedule a consultation to discuss your lighting needs and preferences.",
+          "Step 2: We'll develop a customized lighting plan that meets your specific requirements.",
+          "Step 3: Our experienced electricians will install your new lighting fixtures safely and efficiently.",
+          "Step 4: We'll conduct a final inspection to ensure your complete satisfaction and the proper functioning of your new lighting system."
+        ],
+        "benefits": [
+          "Improved aesthetics",
+          "Increased energy efficiency",
+          "Enhanced safety and security",
+          "Increased property value"
+        ],
+        "faq": [
+          {
+            "question": "What are the benefits of switching to LED lighting?",
+            "answer": "LED lighting is much more energy-efficient than traditional lighting options, saving you money on your electricity bills. It also lasts much longer, reducing maintenance costs and the need for frequent bulb replacements. LED lighting also produces less heat, making it safer and more comfortable."
+          },
+          {
+            "question": "Can you help me design a landscape lighting plan for my home?",
+            "answer": "Yes, we have extensive experience designing and installing landscape lighting systems. We'll work with you to create a plan that enhances the beauty of your property and provides added security."
+          },
+          {
+            "question": "Do you offer smart lighting solutions?",
+            "answer": "Yes, we offer a variety of smart lighting solutions that allow you to control your lights remotely, automate your lighting schedules, and even integrate your lighting with other smart home devices."
+          }
+        ]
+      },
+      {
+        "slug": "electrical-repairs",
+        "name": "Electrical Repairs",
+        "shortDescription": "Fast, reliable electrical repair services in Omaha, resolving issues quickly and safely.",
+        "description": "Nienaber Electrical provides prompt and reliable electrical repair services to homeowners and businesses in Omaha. We understand that electrical problems can be disruptive and even dangerous. That's why we offer 24/7 emergency service to handle urgent issues and restore power quickly. Whether you're dealing with a flickering light, a tripped breaker, or a sparking outlet, our experienced electricians can diagnose the problem and provide a lasting solution. We're familiar with the electrical systems in older homes in Omaha neighborhoods like Midtown and Aksarben, as well as the newer electrical systems in developments on the outskirts of the city. \n\nOur electrical repair services include: troubleshooting electrical problems, repairing faulty wiring, replacing outlets and switches, repairing lighting fixtures, repairing electrical panels, and diagnosing and repairing appliance circuits. We use only high-quality materials and follow strict safety protocols to ensure the safety of your home or business. \n\nDon't attempt to repair electrical problems yourself. Contact Nienaber Electrical for safe, reliable, and professional service.",
+        "process": [
+          "Step 1: Call us to describe your electrical problem and schedule a service appointment.",
+          "Step 2: Our experienced electrician will arrive on time and diagnose the problem.",
+          "Step 3: We'll provide a detailed explanation of the repair options and a transparent estimate.",
+          "Step 4: We'll perform the repair efficiently and safely, using high-quality materials."
+        ],
+        "benefits": [
+          "Fast, reliable service",
+          "Safe and effective repairs",
+          "Peace of mind knowing your electrical system is in good hands",
+          "Prevention of further damage"
+        ],
+        "faq": [
+          {
+            "question": "How much does it cost to have an electrician come to my house?",
+            "answer": "The cost of an electrician's visit depends on the nature of the problem and the amount of time required to diagnose and repair it. We offer transparent pricing and will provide a detailed estimate before starting any work."
+          },
+          {
+            "question": "What should I do if I have an electrical emergency?",
+            "answer": "If you have an electrical emergency, such as a fire, sparking wires, or exposed electrical components, immediately call 911. Then, call Nienaber Electrical for immediate assistance."
+          },
+          {
+            "question": "How can I prevent electrical problems in my home?",
+            "answer": "Regularly inspect your electrical system for signs of wear and tear. Replace any damaged outlets, switches, or cords. Avoid overloading circuits. Install surge protectors to protect your electronics. And schedule regular electrical safety inspections with a qualified electrician."
+          }
+        ]
+      },
+      {
+        "slug": "generator-installation",
+        "name": "Generator Installation",
+        "shortDescription": "Protect your Omaha home or business from power outages with a reliable generator system.",
+        "description": "Omaha's unpredictable weather, with its severe thunderstorms and winter blizzards, can lead to frequent power outages. A generator from Nienaber Electrical can provide backup power to keep your home or business running smoothly during these events. We offer a variety of generator options to meet your specific needs, from portable generators to whole-house standby generators. We'll assess your power requirements and recommend the right size generator to keep your essential appliances and equipment running. We understand the importance of having a reliable backup power source, especially for businesses that rely on electricity to operate. \n\nOur generator installation services include: generator sizing and selection, generator installation, transfer switch installation, gas line installation, and generator maintenance and repair. We'll handle all necessary permits and inspections to ensure compliance with local regulations. \n\nDon't be caught in the dark during the next power outage. Contact Nienaber Electrical today for a free generator consultation and learn how a generator can protect your home or business.",
+        "process": [
+          "Step 1: Schedule a consultation to assess your power needs and determine the right generator for your home or business.",
+          "Step 2: We'll provide a detailed proposal outlining the scope of work and the cost of the installation.",
+          "Step 3: Our licensed technicians will install the generator and transfer switch safely and efficiently.",
+          "Step 4: We'll conduct a thorough inspection to ensure the generator is functioning properly and meets all safety standards."
+        ],
+        "benefits": [
+          "Protection from power outages",
+          "Peace of mind knowing you have backup power",
+          "Increased comfort and convenience",
+          "Prevention of business disruptions"
+        ],
+        "faq": [
+          {
+            "question": "What is the difference between a portable generator and a standby generator?",
+            "answer": "A portable generator is a smaller, less expensive option that can be moved around and used to power a few essential appliances. A standby generator is a larger, more expensive option that is permanently installed and automatically provides power to your entire home or business during a power outage."
+          },
+          {
+            "question": "How much does it cost to install a generator?",
+            "answer": "The cost of generator installation depends on the size and type of generator, as well as the complexity of the installation. We offer transparent pricing and will provide a detailed estimate before starting any work."
+          },
+          {
+            "question": "How often should I have my generator serviced?",
+            "answer": "We recommend having your generator serviced annually to ensure it is functioning properly and ready to provide backup power when you need it."
+          }
+        ]
+      }
+    ],
+    "serviceAreas": [
+      {
+        "city": "Omaha",
+        "slug": "omaha-ne",
+        "state": "NE",
+        "content": "Nienaber Electrical is proud to serve the Omaha community with top-quality electrical services. From routine maintenance and repairs to complex installations, our team of licensed and experienced electricians is dedicated to ensuring the safety and efficiency of your electrical systems. We understand the unique needs of Omaha homes and businesses and are committed to providing reliable and affordable solutions.\n\nWhether you're dealing with a flickering light, need a new electrical panel installed, or require wiring for a home renovation project, Nienaber Electrical has you covered. We prioritize customer satisfaction and strive to exceed your expectations with every job we undertake. Our commitment to excellence and attention to detail sets us apart as a leading electrical contractor in Omaha.",
+        "localContext": "Omaha is a vibrant city with a diverse mix of residential neighborhoods and commercial districts, known for its strong economy and friendly atmosphere. Nienaber Electrical is proud to contribute to the safety and well-being of the Omaha community.",
+        "nearbyAreas": [
+          "Council Bluffs",
+          "Bellevue",
+          "Papillion"
+        ]
+      },
+      {
+        "city": "Bellevue",
+        "slug": "bellevue-ne",
+        "state": "NE",
+        "content": "Nienaber Electrical extends its expert electrical services to the residents and businesses of Bellevue, Nebraska. As a growing community with a rich history, Bellevue deserves reliable and trustworthy electrical solutions. Our team is equipped to handle all your electrical needs, from minor repairs to major installations, ensuring your safety and satisfaction.\n\nWe understand the importance of having a dependable electrical system, whether you're running a business or managing a household. Nienaber Electrical is committed to providing prompt, professional, and affordable service to the Bellevue community. We are dedicated to ensuring your electrical systems are functioning safely and efficiently.",
+        "localContext": "Bellevue is a thriving city located just south of Omaha, known for its strong military presence and family-friendly atmosphere. Nienaber Electrical is proud to serve the electrical needs of Bellevue's residents and businesses.",
+        "nearbyAreas": [
+          "Omaha",
+          "Papillion",
+          "La Vista"
+        ]
+      },
+      {
+        "city": "Papillion",
+        "slug": "papillion-ne",
+        "state": "NE",
+        "content": "Nienaber Electrical offers comprehensive electrical services to the growing community of Papillion, Nebraska. Known for its excellent schools and family-oriented environment, Papillion deserves top-notch electrical services to ensure the safety and comfort of its residents. We provide a wide range of services, including electrical repairs, installations, and upgrades.\n\nWe are committed to providing prompt and reliable service to meet the needs of Papillion's homeowners and business owners alike. Nienaber Electrical strives to exceed your expectations with our quality workmanship and customer-focused approach. We understand the importance of a safe and reliable electrical system for your home or business.",
+        "localContext": "Papillion is a rapidly growing city in Sarpy County, known for its excellent schools and family-friendly environment. Nienaber Electrical is dedicated to serving the electrical needs of the Papillion community.",
+        "nearbyAreas": [
+          "Bellevue",
+          "La Vista",
+          "Gretna"
+        ]
+      },
+      {
+        "city": "Council Bluffs",
+        "slug": "council-bluffs-ia",
+        "state": "IA",
+        "content": "Nienaber Electrical proudly serves Council Bluffs, Iowa, providing expert electrical solutions to homes and businesses across the city. We offer a comprehensive range of services, from basic repairs to complex installations, ensuring your electrical systems are safe, efficient, and up to code. Our team of experienced electricians is dedicated to delivering exceptional service and customer satisfaction.\n\nWhether you need a new electrical outlet installed, a complete rewiring of your home, or assistance with commercial electrical projects, Nienaber Electrical is here to help. We understand the unique electrical needs of Council Bluffs residents and businesses, and we are committed to providing reliable and affordable solutions to keep your property powered and protected.",
+        "localContext": "Council Bluffs is a vibrant city located across the Missouri River from Omaha, Nebraska, known for its rich history and thriving entertainment scene. Nienaber Electrical is proud to serve the electrical needs of the Council Bluffs community.",
+        "nearbyAreas": [
+          "Omaha",
+          "Carter Lake",
+          "Crescent"
+        ]
+      },
+      {
+        "city": "La Vista",
+        "slug": "la-vista-ne",
+        "state": "NE",
+        "content": "Nienaber Electrical is dedicated to providing the highest quality electrical services to the residents and businesses of La Vista, Nebraska. Our team is equipped to handle any electrical project, big or small, with expertise and professionalism. We strive to ensure that your electrical systems are functioning safely and efficiently.\n\nWe understand the importance of having a reliable electrical contractor you can trust. Nienaber Electrical is committed to providing prompt, affordable, and dependable service to the La Vista community. Our focus on customer satisfaction and quality workmanship sets us apart.",
+        "localContext": "La Vista is a growing city in Sarpy County, known for its business-friendly environment and convenient location. Nienaber Electrical is dedicated to serving the electrical needs of La Vista's residents and businesses.",
+        "nearbyAreas": [
+          "Papillion",
+          "Ralston",
+          "Omaha"
+        ]
+      },
+      {
+        "city": "Gretna",
+        "slug": "gretna-ne",
+        "state": "NE",
+        "content": "Nienaber Electrical is proud to offer its comprehensive electrical services to the residents and businesses of Gretna, Nebraska. As a rapidly growing community, Gretna deserves access to reliable and trustworthy electrical solutions. Our team is dedicated to providing top-quality workmanship and exceptional customer service.\n\nWhether you need a simple repair, a new installation, or a complete electrical system upgrade, Nienaber Electrical is here to help. We understand the unique needs of Gretna's homeowners and business owners, and we are committed to providing affordable and effective solutions to keep your property powered and safe.",
+        "localContext": "Gretna is a rapidly growing city located west of Omaha, known for its excellent schools and family-friendly environment. Nienaber Electrical is pleased to serve the electrical needs of the Gretna community.",
+        "nearbyAreas": [
+          "Papillion",
+          "Elkhorn",
+          "Bennington"
+        ]
+      },
+      {
+        "city": "Ralston",
+        "slug": "ralston-ne",
+        "state": "NE",
+        "content": "Nienaber Electrical is committed to providing exceptional electrical services to the residents and businesses of Ralston, Nebraska. With a focus on safety, quality, and customer satisfaction, we offer a comprehensive range of electrical solutions to meet your needs. Our team of experienced electricians is dedicated to ensuring your electrical systems are functioning properly and efficiently.\n\nWhether you need a routine repair, a new installation, or an upgrade to your existing electrical system, Nienaber Electrical is here to help. We understand the unique needs of Ralston's homeowners and business owners, and we are committed to providing reliable and affordable solutions to keep your property powered and protected.",
+        "localContext": "Ralston is a vibrant city located in Douglas County, known for its strong community spirit and convenient location. Nienaber Electrical is proud to serve the electrical needs of the Ralston community.",
+        "nearbyAreas": [
+          "Omaha",
+          "La Vista",
+          "Boys Town"
+        ]
+      },
+      {
+        "city": "Bennington",
+        "slug": "bennington-ne",
+        "state": "NE",
+        "content": "Nienaber Electrical proudly serves the growing community of Bennington, Nebraska, providing reliable and efficient electrical services to homes and businesses. Our team of experienced electricians is dedicated to delivering top-quality workmanship and exceptional customer service. We understand the unique electrical needs of Bennington residents and are committed to providing solutions that meet your specific requirements.\n\nFrom routine maintenance and repairs to new installations and upgrades, Nienaber Electrical has you covered. We prioritize safety and compliance with all local codes and regulations, ensuring that your electrical systems are functioning properly and efficiently. We are committed to providing prompt, professional, and affordable service to the Bennington community.",
+        "localContext": "Bennington is a rapidly growing city located northwest of Omaha, known for its excellent schools and family-friendly environment. Nienaber Electrical is dedicated to serving the electrical needs of the Bennington community.",
+        "nearbyAreas": [
+          "Elkhorn",
+          "Valley",
+          "Waterloo"
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Sarah M.",
+        "rating": 5,
+        "service": "Electrical Panel Upgrade",
+        "text": "Nienaber Electrical did a fantastic job upgrading our electrical panel. Our old panel was outdated and couldn't handle our modern appliances. The team was professional, efficient, and explained everything clearly. Highly recommend!",
+        "date": "2024-11-15"
+      },
+      {
+        "name": "David K.",
+        "rating": 4,
+        "service": "Lighting Installation",
+        "text": "We hired Nienaber Electrical to install recessed lighting in our living room. The electrician was punctual and did a great job. The new lighting looks amazing and has completely transformed the space. Only minor issue was a small delay in scheduling.",
+        "date": "2024-12-01"
+      },
+      {
+        "name": "Jessica L.",
+        "rating": 5,
+        "service": "Electrical Repair",
+        "text": "I had an electrical emergency late at night and Nienaber Electrical responded quickly. The electrician was able to diagnose the problem and fix it within an hour. Very impressed with their prompt and professional service!",
+        "date": "2025-01-10"
+      },
+      {
+        "name": "Tom B.",
+        "rating": 5,
+        "service": "Generator Installation",
+        "text": "Living in Omaha, we know how bad the storms can get. Nienaber Electrical installed a whole-house generator for us, and it gives us incredible peace of mind. The installation was smooth, and they explained everything thoroughly. Great investment!",
+        "date": "2025-02-20"
+      },
+      {
+        "name": "Emily S.",
+        "rating": 4,
+        "service": "Commercial Electrical Services",
+        "text": "Nienaber Electrical has been great for our business. They upgraded our lighting to LED, which significantly lowered our energy bills. They were professional and worked around our business hours to minimize disruption.",
+        "date": "2025-03-05"
+      },
+      {
+        "name": "Michael R.",
+        "rating": 5,
+        "service": "Residential Electrical Services",
+        "text": "We had Nienaber Electrical rewire part of our older home in Dundee. They were very careful, respectful of our property, and did an excellent job. Their knowledge of older electrical systems was evident, and we felt confident in their work.",
+        "date": "2025-03-18"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Nienaber Electrical | Omaha Electricians",
+        "description": "Trusted Omaha electricians for residential & commercial. Expert repairs, upgrades, & installations. Call for a free estimate!"
+      },
+      "about": {
+        "title": "About Nienaber Electrical | Omaha, NE",
+        "description": "Learn about Nienaber Electrical's commitment to quality electrical services in Omaha. Licensed, insured, and locally trusted."
+      },
+      "services": {
+        "title": "Omaha Electrical Services | Nienaber Electrical",
+        "description": "Comprehensive electrical services in Omaha. Panel upgrades, lighting, repairs, generator install & more. Expert electricians."
+      },
+      "contact": {
+        "title": "Contact Nienaber Electrical | Omaha, NE",
+        "description": "Contact Nienaber Electrical for reliable electrical services in Omaha. Get a free estimate for your project today!"
+      },
+      "reviews": {
+        "title": "Nienaber Electrical Reviews | Omaha, NE",
+        "description": "Read reviews from satisfied Nienaber Electrical customers in Omaha. See why we're the trusted choice for electrical services."
+      },
+      "service-areas": {
+        "title": "Service Areas | Nienaber Electrical",
+        "description": "Nienaber Electrical provides expert electrical services throughout Omaha and surrounding areas. See our full service area list."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 15,
+      "projectsCompleted": "1200+",
+      "satisfaction": "98%",
+      "teamSize": "25+"
+    }
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "residential-electrical-services": "/images/service-residential-electrical-services.webp",
+      "commercial-electrical-services": "/images/service-commercial-electrical-services.webp",
+      "electrical-panel-upgrades": "/images/service-electrical-panel-upgrades.webp",
+      "lighting-installation": "/images/service-lighting-installation.webp",
+      "electrical-repairs": "/images/service-electrical-repairs.webp",
+      "generator-installation": "/images/service-generator-installation.webp"
+    },
+    "servicesResponsive": {
+      "residential-electrical-services": {
+        "src": "/images/service-residential-electrical-services.webp",
+        "srcset": "/images/service-residential-electrical-services-400w.webp 400w, /images/service-residential-electrical-services-800w.webp 800w, /images/service-residential-electrical-services-1200w.webp 1200w, /images/service-residential-electrical-services.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "commercial-electrical-services": {
+        "src": "/images/service-commercial-electrical-services.webp",
+        "srcset": "/images/service-commercial-electrical-services-400w.webp 400w, /images/service-commercial-electrical-services-800w.webp 800w, /images/service-commercial-electrical-services-1200w.webp 1200w, /images/service-commercial-electrical-services.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "electrical-panel-upgrades": {
+        "src": "/images/service-electrical-panel-upgrades.webp",
+        "srcset": "/images/service-electrical-panel-upgrades-400w.webp 400w, /images/service-electrical-panel-upgrades-800w.webp 800w, /images/service-electrical-panel-upgrades-1200w.webp 1200w, /images/service-electrical-panel-upgrades.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "lighting-installation": {
+        "src": "/images/service-lighting-installation.webp",
+        "srcset": "/images/service-lighting-installation-400w.webp 400w, /images/service-lighting-installation-800w.webp 800w, /images/service-lighting-installation-1200w.webp 1200w, /images/service-lighting-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "electrical-repairs": {
+        "src": "/images/service-electrical-repairs.webp",
+        "srcset": "/images/service-electrical-repairs-400w.webp 400w, /images/service-electrical-repairs-800w.webp 800w, /images/service-electrical-repairs-1200w.webp 1200w, /images/service-electrical-repairs.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "generator-installation": {
+        "src": "/images/service-generator-installation.webp",
+        "srcset": "/images/service-generator-installation-400w.webp 400w, /images/service-generator-installation-800w.webp 800w, /images/service-generator-installation-1200w.webp 1200w, /images/service-generator-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
